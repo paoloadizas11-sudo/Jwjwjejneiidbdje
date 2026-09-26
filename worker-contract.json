@@ -1,0 +1,14 @@
+{
+  "endpoint": "POST /deploy",
+  "request": {
+    "filename": "bot.zip",
+    "size": 123456,
+    "botTokenProvided": false,
+    "adminIds": [],
+    "note": "Vercel dashboard sends this manifest to the configured persistent worker."
+  },
+  "response": {
+    "status": "Deployment queued",
+    "logs": ["Build started", "Dependencies installed", "Bot started"]
+  }
+}
